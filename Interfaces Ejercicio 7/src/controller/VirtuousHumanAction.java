@@ -1,12 +1,11 @@
 package controller;
 
-public interface HumanAction {
+public interface VirtuousHumanAction {
 	
 	public static final boolean HASCONSCIENCE = true;
 	
 	public void playViolin();
-	public void talk();
 	public void createProgramas();
-	public void study();
+
 
 }

@@ -4,6 +4,10 @@ public interface Action {
 	
 	public static final boolean WILL = true;
 	
-	public void live();
+	public void listen();
+	public void eat();
+	public void play();
+	public void sleep();
+	
 
 }

@@ -15,9 +15,27 @@ public class Cat extends Animal {
 // METHODS
 	
 	@Override
-	public void live() {
+	public void listen() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void sleep() {
+		// TODO Auto-generated method stub
+	
+}
 
 }
