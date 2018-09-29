@@ -7,7 +7,8 @@ public class Dog extends Animal {
 //------------------------------------------------
 // CONSTRUCTOR		
 
-	public Dog(Boolean isVaccinated) {
+	public Dog(Boolean isVaccinated, Boolean isPettable) {
+		super(isPettable);
 		this.isVaccinated = isVaccinated;
 	}
 	

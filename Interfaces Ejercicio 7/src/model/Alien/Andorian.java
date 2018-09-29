@@ -1,10 +1,16 @@
 package model.Alien;
 
 public class Andorian extends Alien {
+	
+//------------------------------------------------
+// CONSTRUCTOR		
 
 	public Andorian(boolean isMortal) {
 		super(isMortal);
 	}
+	
+//------------------------------------------------
+// METHODS	
 
 	@Override
 	public void listen() {

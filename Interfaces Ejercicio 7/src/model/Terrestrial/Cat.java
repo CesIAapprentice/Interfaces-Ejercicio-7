@@ -7,7 +7,8 @@ public class Cat extends Animal {
 //------------------------------------------------
 // CONSTRUCTOR	
 
-	public Cat(Integer numberOfLives) {
+	public Cat(Integer numberOfLives, boolean isPettable) {
+		super(isPettable);
 		this.numberOfLives = numberOfLives;
 	}
 	
@@ -36,6 +37,6 @@ public class Cat extends Animal {
 	public void sleep() {
 		// TODO Auto-generated method stub
 	
-}
+	}
 
 }
